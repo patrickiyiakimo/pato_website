@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="https://kit.fontawesome.com/582973d613.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <i class="fa-solid fa-bars"></i>
+    <i class="fa-solid fa-xmark"></i>
+    <div class="pato">
+        <ul>
+            <li>About</li>    
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+        </ul>
+
+    </div>
+
+
+    <div class="focus">
+        <nav>
+            <img src="../images/IMG_E3124 - Copy.JPG" width="300px" height="300px">
+        </nav>
+
+             <h1>Hello. I'm a Frontend Web Developer</h1>
+             <p>My name is <span>Patrick Iyiakimo.</span> I craft user interfaces using modern frontend web technologies.</p>
+             <h3><i> Let's work together</i></h3>
+    </div>
+<!-- --------------------about me section------------------------->
+    <div class="container">
+        <h2>About Me</h2>
+             <p>I'm a frontend web developer with less than a year experience. <br> I started my tech journey because i felt developers are ruling the digital space based on the ability to create real world applications, solving problems etc... Becoming a Web developer is one of the best decisions i have ever made because i have to constantly put my brain to work which is what i love doing.</p>
+    </div>
+
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+    </div>
+
+
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>Web Development</span><br> Designing Web/App interfaces</li>
+            <li>Web Product Design</li>
+            <li>Web Development Support and Maintenance</li>
+            <li>Web Hosting</li>
+            <li>Web Optimization</li>
+        </ul>
+
+    </div>
+
+    <!-- <div class="tab-contents" id="education">
+        <ul>
+            <li>OND Estate Management and valuation </li>
+            <li>Bsc in computer science</li>
+
+        </ul>
+        </div> -->
+    
+        
+        <!------------------ <h2>Services</h2>------------------>
+
+        <div class="sub-section">
+            <h2>Services</h2>
+            <h3>Web Design</h3>
+            <p>I plan, conceptualise.and implement the plan for designing a website in a way that is functional and offers a good user experience.</p>
+            <h3>App Design</h3>
+            <p>I ensure that the ongoing process comprising user experience (UX) and user interface (UI) elements.</p>
+        </div>
+
+        <!------------------------- contact me section---------------------->
+        <div class="mini-section">
+          <h2>Contact Me</h2>
+              <input type="text" id="name" placeholder="Your Name"><br>
+                <input type="email" id="email" placeholder="Your Email"><br>
+                <label for="text" id="text">your message</labe><br>
+                <textarea name="me" id="me" cols="30" rows="10"></textarea><br>
+                <button>Submit</button><br>
+
+                <footer>
+                    <ul>
+                      <li><i class="fa-brands fa-square-twitter"></i></li>
+                       <li><i class="fa-brands fa-square-facebook"></i></li>
+                       <li><i class="fa-brands fa-instagram"></i></li>
+                       <li><i class="fa-brands fa-square-github"></i></li>
+                       <li><i class="fa-brands fa-linkedin"></i></li>
+                   </ul>
+                   
+                   </footer>
+         </div>
+
+
+    </div>
+
+
+
+
+     <!-- <script>
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+    1   var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){}
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+        //  }
+        //  for(tabcontent of tabcontents){
+        //      tabcontent.classlist.remove("active-tab");
+ 
+        //  }
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classlist.add("active-tab");
+
+
+
+
+
+    </script>  -->
+
+</body>
+</html>
